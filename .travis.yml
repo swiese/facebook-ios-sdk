@@ -1,7 +1,4 @@
 language: objective-c
-before_install:
-  - brew update
-  - brew reinstall xctool
-  - gem install cocoapods --pre --quiet
-  - pod setup --silent
-  - pod repo update --silent
+
+xcode_workspace: FacebookSDK.xcworkspace # path to your xcodeproj folder
+xcode_scheme: BuildAllKits
